@@ -5,10 +5,10 @@ plugins = {
     'multiplicacion' : 'mul.py',
 }
 
-op1 = int(input("Cual es el operando 1?"))
-op2 = int(input("Cual es el operando 2?"))
+op1 = int(input("Cual es el operando 1?\n"))
+op2 = int(input("Cual es el operando 2?\n"))
 
-operacion = input("Que operacion desea realizar?")
+operacion = input("Que operacion desea realizar?\n")
 
 if operacion == "suma":
     print("El resultado es " + str(op1+op2))
